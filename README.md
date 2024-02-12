@@ -6,4 +6,4 @@ I exhibit my projects assigned by the course management here.
 
 Projects created with HTML and CSS are here
 
-1. <a href="https://alibalaban.github.io/projects/cw/netflox/" target="blank">Netflox Form Page</a>
+1. <a href="https://alibalaban.github.io/projects/cw/netflox/" target="_blank">Netflox Form Page</a>
