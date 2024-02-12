@@ -13,7 +13,7 @@
     src: url(./font/BebasNeue/BebasNeue-Book.ttf);
   }
 body {
-  background-image: url(/netflox/img/bg.jpg);
+  background-image: url(/projects/cw/netflox/img/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
