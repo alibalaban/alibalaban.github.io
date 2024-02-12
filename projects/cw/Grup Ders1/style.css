@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+body {
+  background-image: url(./img/coffe.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+.container {
+  margin: 10rem 15rem;
+}
+.container .header{
+    padding-bottom: 10rem;
+}
+.container .header h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-bottom: 7rem;
+  color: white;
+}
+.container .header p {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #f0d3c4;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.card{
+    display: inline-block;    
+    background-color: rgba(32, 6, 3, .7);
+    padding: 4rem 3rem;
+    text-align: center;
+    color: white;
+}
+.card h2{
+    font-size: 3.3rem;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.card h2{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Seasons</title>
+    <style>
+      body {
+        background-color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      confirm("Welcome to get Season javascript program!!");
+
+      let month = Number(prompt("Enter a month:"));
+      if (month < 1 || month > 12) {
+        console.log("Invalid Month!!! - please refresh the page");
+        process.exit(1);
+      }
+
+      let day = Number(prompt("Enter a Day"));
+      if (day < 1 || day > 31) {
+        console.log("Invalid Day!!! - please refresh the page");
+        process.exit(1);
+      }
+
+      //     Season conditions:
+      // Winter: December 21 - February 20
+      // Spring: February 21 - May 31
+      // Summer: June 1 - September 21
+      // Fall: September 22 - December 20
+      let season = "";
+
+      if (month == 1) {
+        season = "Winter";
+      } else if (month == 2) {
+        if (day <= 20) {
+          season = "Winter";
+        } else {
+          season = "Spring";
+        }
+      } else if (month == 3) {
+        season = "Spring";
+      } else if (month == 4) {
+        season = "Spring";
+      } else if (month == 5) {
+        season = "Spring";
+      } else if (month == 6) {
+        season = "Summer";
+      } else if (month == 7) {
+        season = "Summer";
+      } else if (month == 8) {
+        season = "Summer";
+      } else if (month == 9) {
+        if (day <= 21) {
+          season = "Summer";
+        } else {
+          season = "Fall";
+        }
+      } else if (month == 10) {
+        season = "Fall";
+      } else if (month == 11) {
+        season = "Fall";
+      } else if (month == 12) {
+        if (day <= 20) {
+          season = "Fall";
+        } else {
+          season = "Winter";
+        }
+      } else {
+        season = "Invalid Season !!!!";
+      }
+
+      console.log(`The season for ${month}/${day} is ${season}`);
+    </script>
+
+
+<!-- <script>
+
+const month = prompt('Enter a month (1-12)') // Enter a month (1-12)
+const day = prompt('Enter a day (1-31)'); // Enter a day (1-31)
+const isValidMonth = month >= 1 && month <= 12;
+const isValidDay = day >= 1 && day <= 31;
+if (!isValidMonth || !isValidDay) {
+  console.log('Invalid month or day. Please enter valid values.');
+} else {
+  let season;
+  if ((month >= 3 && month <= 5) || (month === 2 && day >= 20 && day <= 29)) {
+    season = 'spring';
+  } else if ((month >= 6 && month <= 8) || (month === 9 && day <= 21)) {
+    season = 'summer';
+  } else if ((month >= 9 && month <= 11) || (month === 12 && day <= 20)) {
+    season = 'fall';
+  } else {
+    season = 'winter';
+}
+  console.log(`The season for ${month}/${day} is ${season}.`);
+}
+
+</script> -->
+
+
+  </body>
+</html>
+
+<!-- Season conditions:
+Spring: February 21 - May 31
+Summer: June 1 - September 21
+Fall: September 22 - December 20
+Winter: December 21 - February 20 -->
+
+<!-- If month is 9 and day is 20, output should be:
+The season for 9/20 is Summer.
+If month is 5 and day is 32, output should be:
+Invalid month or day. Please enter valid values. -->

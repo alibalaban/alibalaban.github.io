@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+@font-face {
+  font-family: "Netflox Bold";
+  src: url(./font/BebasNeue/BebasNeue-Bold.ttf);
+}
+@font-face {
+    font-family: "Netflox Regular";
+    src: url(./font/BebasNeue/BebasNeue-Book.ttf);
+  }
+body {
+  background-image: url(/netflox/img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.area{
+  background-color: rgba(0, 0, 0, 0.522);
+  margin: 20px;
+  padding: 35px 0px;
+}
+.header {
+    text-align: center;
+    font
+}
+.logo p{
+  font-weight: 600;
+  font-family: "Netflox Bold";
+  color: white;
+  font-size: 3rem;
+}
+.logo span{
+  font-size: 3rem;
+  color: red;
+}
+.subtitle {
+  padding: 20px 0px;
+}
+.subtitle p {
+  font-size: 1.3rem;
+  color:#fff;
+}
+.container {
+  background-color: transparent;
+  margin: 0 auto;
+  max-width: 450px;
+  min-height: 100vh;
+}
+.form {
+  color: #333;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+form{
+    background-color: rgba(0,0,0,.75);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    min-height: 515px;
+    padding: 20px 20px;
+    width: 100%;
+}
+label{
+  color: #fff;
+}
+label.labelset{
+    padding: 15px 0px;
+}
+input.inputset{
+    border: 0;
+    border-radius: 4px;
+    height: 45px;
+    padding: 16px 20px;
+}
+select#content {
+    padding: 10px;
+}
+ul.list p{
+  color: #fff;
+  padding:10px 0px ;
+}
+ul.list li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.text-area{
+  display: grid;
+  padding: 25px 0px;
+  gap: 5px;
+}
+.item-center{
+  display: flex;
+  justify-content: center;
+}
+.submit{
+  margin:10px 0;
+  background-color: #e50914;
+  color:#ffffff;
+  width: 150px;
+  height: 45px;
+  border-radius: 25px;
+  border: none;
+}
