@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    border: 1px solid red;
+}
+body{
+    opacity: 0.7;
+    font-family:" Lato", sans-serif;
+}
+.box{
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-1{
+    background-image: url(../img/bg.jpg);
+}
+.box section{
+
+}
+.container-1 section span{
+    font-size: max(16px, 2.5vw);
+    background-color: black;
+    padding: 1rem;
+    border-bottom-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    outline: 0.5rem inset purple;
+    outline-offset: 0.5rem;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+}
