@@ -8,26 +8,23 @@ html {
   font-family: " Lato", sans-serif;
   height: 100%;
 }
+
 .box {
+  background-position: center;
   background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   opacity: 0.7;
 }
-.box-2 {
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+.h-set {
   min-height: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0.7;
+  height: auto!important;
 }
-.box-2 img {
+.box img {
   width: 30%;
 }
 .box span {
