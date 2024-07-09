@@ -1,3 +1,3 @@
-# My Projectss
+# My Projects
 
-You can follow my projects, which you can view as a website, here.
+You can follow my projects, which you can view as a website, here.s
